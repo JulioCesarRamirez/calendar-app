@@ -7,8 +7,8 @@ import './login.css';
 
 export const LoginScreen = () => {
   const [formLoginValues, handleLoginInputChange] = useForm({
-    lEmail: 'jorge@test.com',
-    lPassword: '123456',
+    lEmail: '',
+    lPassword: '',
   });
 
   const [formRegisterValues, handleRegisterInputChange] = useForm({
